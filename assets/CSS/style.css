@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #92a9e6;
+    height: 800px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.left{
+    height: 700px;
+    width: 550px;
+    background-color: #ffffff;
+}
+.left span{
+    color: #2271dd;
+    margin-left: 60px;
+    font-size: 25px;
+}
+/* .left input{
+    display: flex;
+} */
+.left #title{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 25px;
+  width: 430px;
+  height: 50px;
+  font-size: 18px;
+  color: #666666;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+}
+.left .name-surname{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 25px;
+  width: 430px;
+  height: 50px;  
+  font-size: 18px;
+  color: #666666;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+}
+.left .name-surname input{
+    border: none;
+}
+.left #position{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 25px;
+  width: 430px;
+  height: 50px;  
+  font-size: 18px;
+  color: #666666;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+}
+.left .company{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    color: #666666;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.left .company input{
+    border: none;
+}
+.left .arena{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    color: #666666;
+    border: none;
+    border-bottom: 2px solid #cccccc; 
+}
+.left .arena input{
+    border: none;
+}
+.left .arena #Business{
+    border: none;
+}
+.right{
+    height: 700px;
+    width: 550px;
+    background-color: #4835d4;
+}
+.right span{
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.right input{
+    display: flex;
+}
+.right .street{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    border-bottom: 2px solid #7f72e1;  
+}
+.right .street input{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none;
+}
+.right .information{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    border-bottom: 2px solid #7f72e1;  
+}
+.right .information input{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none;
+}
+.right .zip-code{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    border-bottom: 2px solid #7f72e1; 
+}
+.right .zip-code input{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none;
+}
+.right .zip-code #place{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none;
+}
+.right .select-country{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    border-bottom: 2px solid #7f72e1; 
+}
+.right .select-country #country{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none; 
+}
+.right .code-number{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    border-bottom: 2px solid #7f72e1; 
+}
+.right .code-number input{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none; 
+}
+.right .email{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 430px;
+    height: 50px;  
+    font-size: 18px;
+    border-bottom: 2px solid #7f72e1;  
+}
+.right .email input{
+    background-color: #4835d4ed;
+    color: #f2f2f2;
+    font-size: 18px;
+    border: none; 
+}
+.right .chek{
+    display: flex;
+    justify-content: space-between;
+}
+.right .chek p{
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 115px;
+    color: #f2f2f2;
+}
+.right .chek p a{
+    color: #f2f2f2; 
+}
+.right .chek input{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.right button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 32%;
+}
+
+
+
