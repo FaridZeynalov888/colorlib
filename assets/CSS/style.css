@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 body{
     background-color: #92a9e6;
@@ -17,6 +18,7 @@ body{
     height: 700px;
     width: 550px;
     background-color: #ffffff;
+    border-top-left-radius: 10px;
 }
 .left span{
     color: #2271dd;
@@ -36,6 +38,7 @@ body{
   color: #666666;
   border: none;
   border-bottom: 2px solid #cccccc;
+  outline: none;
 }
 .left .name-surname{
   display: flex;
@@ -51,6 +54,7 @@ body{
 }
 .left .name-surname input{
     border: none;
+    outline: none;
 }
 .left #position{
   display: flex;
@@ -62,6 +66,7 @@ body{
   color: #666666;
   border: none;
   border-bottom: 2px solid #cccccc;
+  outline: none;
 }
 .left .company{
     display: flex;
@@ -76,6 +81,7 @@ body{
 }
 .left .company input{
     border: none;
+    outline: none;
 }
 .left .arena{
     display: flex;
@@ -91,14 +97,17 @@ body{
 }
 .left .arena input{
     border: none;
+    outline: none;
 }
 .left .arena #Business{
     border: none;
+    outline: none;
 }
 .right{
     height: 700px;
     width: 550px;
     background-color: #4835d4;
+    border-top-right-radius: 10px;
 }
 .right span{
     color: #fff;
@@ -121,6 +130,7 @@ body{
     color: #f2f2f2;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 .right .information{
     display: flex;
@@ -135,6 +145,7 @@ body{
     color: #f2f2f2;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 .right .zip-code{
     display: flex;
@@ -151,12 +162,14 @@ body{
     color: #f2f2f2;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 .right .zip-code #place{
     background-color: #4835d4ed;
     color: #f2f2f2;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 .right .select-country{
     display: flex;
@@ -223,19 +236,21 @@ body{
     margin-left: 80px;
     margin-top: 20px;
 }
+.right ::placeholder{
+    color: #fff;
+} 
 .right button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
-    margin-left: 60px;
-    margin-top: 50px;
+    padding: 20px;
     border: none;
-    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
     cursor: pointer;
-    border-radius: 32%;
+    border-radius: 70px;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
 
